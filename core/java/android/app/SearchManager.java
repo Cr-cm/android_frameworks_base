@@ -436,7 +436,7 @@ public class SearchManager
     private final Context mContext;
 
     /**
-     * The package associated with this seach manager.
+     * The package associated with this search manager.
      */
     private String mAssociatedPackage;
 
