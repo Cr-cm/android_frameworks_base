@@ -240,7 +240,7 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode {
     TextView mNotificationPanelDebugText;
 
     // Custom battery
-    QuickSettings mQSBattery;
+    //QuickSettings mQSBattery;
 
     // settings
     QuickSettingsController mQS;
@@ -507,9 +507,9 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode {
     }
 
     private void updateBatteryIcons() {
-        if (mQSBattery != null) {
-            mQSBattery.updateBattery();
-        }
+        //if (mQSBattery != null) {
+        //    mQSBattery.updateBattery();
+        //}
         if (mBattery != null && mCircleBattery != null) {
             mBattery.updateSettings();
             mCircleBattery.updateSettings();
